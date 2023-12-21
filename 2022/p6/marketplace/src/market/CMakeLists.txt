@@ -7,5 +7,5 @@ target_include_directories(market PUBLIC
 		${PROJECT_SOURCE_DIR}/src/client
 		${PROJECT_SOURCE_DIR}/src/seller)
 
-add_executable(market_main market_main.cc)
-target_link_libraries(market_main PUBLIC market product)
+add_executable(market-main market-main.cc)
+target_link_libraries(market-main PUBLIC market product)

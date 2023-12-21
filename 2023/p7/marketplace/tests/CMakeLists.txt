@@ -52,3 +52,9 @@ add_executable(seller-test seller-test.cc)
 target_link_libraries(seller-test
  PRIVATE GTest::GTest seller basket product tv computer)
 add_test(seller_gtests seller-test)
+
+# Testing market library
+add_executable(market-test market-test.cc)
+target_link_libraries(market-test
+ PRIVATE GTest::GTest market product client seller basket)
+add_test(market_gtests market-test)

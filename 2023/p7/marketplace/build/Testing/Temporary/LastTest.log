@@ -1,0 +1,338 @@
+Start testing: Dec 21 19:47 CET
+----------------------------------------------------------
+1/8 Testing: person-gtests
+1/8 Test: person-gtests
+Command: "/home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests/person-test"
+Directory: /home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests
+"person-gtests" start time: Dec 21 19:47 CET
+Output:
+----------------------------------------------------------
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from Person
+[ RUN      ] Person.Constructor1
+[       OK ] Person.Constructor1 (0 ms)
+[ RUN      ] Person.Constructor2
+[       OK ] Person.Constructor2 (0 ms)
+[ RUN      ] Person.Constructor3
+[       OK ] Person.Constructor3 (0 ms)
+[ RUN      ] Person.Constructor4
+[       OK ] Person.Constructor4 (0 ms)
+[ RUN      ] Person.Modifiers
+[       OK ] Person.Modifiers (0 ms)
+[ RUN      ] Person.SetAge
+[       OK ] Person.SetAge (0 ms)
+[ RUN      ] Person.SetEntryYear
+[       OK ] Person.SetEntryYear (0 ms)
+[ RUN      ] Person.GetDataStr
+[       OK ] Person.GetDataStr (0 ms)
+[ RUN      ] Person.Get_AddPreference
+[       OK ] Person.Get_AddPreference (0 ms)
+[ RUN      ] Person.AddPreferences
+[       OK ] Person.AddPreferences (0 ms)
+[ RUN      ] Person.ChangePreference
+[       OK ] Person.ChangePreference (0 ms)
+[ RUN      ] Person.ShowPreferences
+
+Las preferencias son: 
+futbol
+fashion
+surf
+cinema
+padel
+golf
+rock
+music
+[       OK ] Person.ShowPreferences (0 ms)
+[----------] 12 tests from Person (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 12 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"person-gtests" end time: Dec 21 19:47 CET
+"person-gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/8 Testing: product_gtests
+2/8 Test: product_gtests
+Command: "/home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests/product-test"
+Directory: /home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests
+"product_gtests" start time: Dec 21 19:47 CET
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from Product
+[ RUN      ] Product.ConstructorDefaultParam
+[       OK ] Product.ConstructorDefaultParam (0 ms)
+[ RUN      ] Product.ConstructorParam
+[       OK ] Product.ConstructorParam (0 ms)
+[ RUN      ] Product.ProductSetters
+[       OK ] Product.ProductSetters (0 ms)
+[----------] 3 tests from Product (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"product_gtests" end time: Dec 21 19:47 CET
+"product_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/8 Testing: tv_gtests
+3/8 Test: tv_gtests
+Command: "/home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests/tv-test"
+Directory: /home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests
+"tv_gtests" start time: Dec 21 19:47 CET
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from Tv
+[ RUN      ] Tv.ConstructorDefaultParam
+[       OK ] Tv.ConstructorDefaultParam (0 ms)
+[ RUN      ] Tv.ConstructorParam
+[       OK ] Tv.ConstructorParam (0 ms)
+[ RUN      ] Tv.TvSetters
+[       OK ] Tv.TvSetters (0 ms)
+[ RUN      ] Tv.Tv_set_Inch
+[       OK ] Tv.Tv_set_Inch (0 ms)
+[----------] 4 tests from Tv (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"tv_gtests" end time: Dec 21 19:47 CET
+"tv_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: computer_gtests
+4/8 Test: computer_gtests
+Command: "/home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests/computer-test"
+Directory: /home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests
+"computer_gtests" start time: Dec 21 19:47 CET
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from Computer
+[ RUN      ] Computer.ConstructorDefaultParam
+[       OK ] Computer.ConstructorDefaultParam (0 ms)
+[ RUN      ] Computer.ConstructorParam
+[       OK ] Computer.ConstructorParam (0 ms)
+[ RUN      ] Computer.ComputerSetters
+[       OK ] Computer.ComputerSetters (0 ms)
+[----------] 3 tests from Computer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"computer_gtests" end time: Dec 21 19:47 CET
+"computer_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: basket_gtests
+5/8 Test: basket_gtests
+Command: "/home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests/basket-test"
+Directory: /home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests
+"basket_gtests" start time: Dec 21 19:47 CET
+Output:
+----------------------------------------------------------
+[==========] Running 19 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 19 tests from Basket
+[ RUN      ] Basket.Basket_add_product
+[       OK ] Basket.Basket_add_product (0 ms)
+[ RUN      ] Basket.Basket_delete_product1
+[       OK ] Basket.Basket_delete_product1 (0 ms)
+[ RUN      ] Basket.Basket_delete_product2
+[       OK ] Basket.Basket_delete_product2 (0 ms)
+[ RUN      ] Basket.Basket_delete_basket
+[       OK ] Basket.Basket_delete_basket (0 ms)
+[ RUN      ] Basket.ZeroProducts
+[       OK ] Basket.ZeroProducts (0 ms)
+[ RUN      ] Basket.AddProduct
+[       OK ] Basket.AddProduct (0 ms)
+[ RUN      ] Basket.AddMoreProducts
+[       OK ] Basket.AddMoreProducts (0 ms)
+[ RUN      ] Basket.DeleteProductsP
+[       OK ] Basket.DeleteProductsP (0 ms)
+[ RUN      ] Basket.DeleteProductsId
+[       OK ] Basket.DeleteProductsId (0 ms)
+[ RUN      ] Basket.DeleteProductsNoId
+[       OK ] Basket.DeleteProductsNoId (0 ms)
+[ RUN      ] Basket.AddAndDeleteProducts
+[       OK ] Basket.AddAndDeleteProducts (0 ms)
+[ RUN      ] Basket.BasketTotalZero
+[       OK ] Basket.BasketTotalZero (0 ms)
+[ RUN      ] Basket.BasketTotal
+[       OK ] Basket.BasketTotal (0 ms)
+[ RUN      ] Basket.BasketTotalDelete
+[       OK ] Basket.BasketTotalDelete (0 ms)
+[ RUN      ] Basket.BasketTotalDeleteQuantities
+[       OK ] Basket.BasketTotalDeleteQuantities (0 ms)
+[ RUN      ] Basket.Basket_get_ids_empty
+[       OK ] Basket.Basket_get_ids_empty (0 ms)
+[ RUN      ] Basket.Basket_get_ids
+[       OK ] Basket.Basket_get_ids (0 ms)
+[ RUN      ] Basket.Basket_get_qs_empty
+[       OK ] Basket.Basket_get_qs_empty (0 ms)
+[ RUN      ] Basket.Basket_get_qs
+[       OK ] Basket.Basket_get_qs (0 ms)
+[----------] 19 tests from Basket (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 19 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 19 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"basket_gtests" end time: Dec 21 19:47 CET
+"basket_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: client_gtests
+6/8 Test: client_gtests
+Command: "/home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests/client-test"
+Directory: /home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests
+"client_gtests" start time: Dec 21 19:47 CET
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from Client
+[ RUN      ] Client.ConstructorDefaultParam
+[       OK ] Client.ConstructorDefaultParam (0 ms)
+[ RUN      ] Client.ConstructorParam
+[       OK ] Client.ConstructorParam (0 ms)
+[ RUN      ] Client.DefaultCopyConstructor
+[       OK ] Client.DefaultCopyConstructor (0 ms)
+[ RUN      ] Client.DefaultEqualOperator
+[       OK ] Client.DefaultEqualOperator (0 ms)
+[ RUN      ] Client.Premium
+[       OK ] Client.Premium (0 ms)
+[----------] 5 tests from Client (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"client_gtests" end time: Dec 21 19:47 CET
+"client_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: seller_gtests
+7/8 Test: seller_gtests
+Command: "/home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests/seller-test"
+Directory: /home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests
+"seller_gtests" start time: Dec 21 19:47 CET
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from Seller
+[ RUN      ] Seller.ConstructorDefaultParam
+[       OK ] Seller.ConstructorDefaultParam (0 ms)
+[ RUN      ] Seller.ConstructorParam
+[       OK ] Seller.ConstructorParam (0 ms)
+[ RUN      ] Seller.DefaultCopyConstructor
+[       OK ] Seller.DefaultCopyConstructor (0 ms)
+[ RUN      ] Seller.DefaultEqualOperator
+[       OK ] Seller.DefaultEqualOperator (0 ms)
+[ RUN      ] Seller.Sector
+[       OK ] Seller.Sector (0 ms)
+[----------] 5 tests from Seller (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"seller_gtests" end time: Dec 21 19:47 CET
+"seller_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: market_gtests
+8/8 Test: market_gtests
+Command: "/home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests/market-test"
+Directory: /home/angelbauste/Documentos/UNI/POO/2023/p7/marketplace/build/tests
+"market_gtests" start time: Dec 21 19:47 CET
+Output:
+----------------------------------------------------------
+[==========] Running 14 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 14 tests from Basket
+[ RUN      ] Basket.Constructor
+[       OK ] Basket.Constructor (0 ms)
+[ RUN      ] Basket.GetSlogan
+[       OK ] Basket.GetSlogan (0 ms)
+[ RUN      ] Basket.SetSlogan
+[       OK ] Basket.SetSlogan (0 ms)
+[ RUN      ] Basket.AddClient
+[       OK ] Basket.AddClient (0 ms)
+[ RUN      ] Basket.AddSeller
+[       OK ] Basket.AddSeller (0 ms)
+[ RUN      ] Basket.DeleteClient
+[       OK ] Basket.DeleteClient (0 ms)
+[ RUN      ] Basket.DeleteSeller
+[       OK ] Basket.DeleteSeller (0 ms)
+[ RUN      ] Basket.DeletingAddingClientsAndSellers
+[       OK ] Basket.DeletingAddingClientsAndSellers (0 ms)
+[ RUN      ] Basket.AddProductSeller
+[       OK ] Basket.AddProductSeller (0 ms)
+[ RUN      ] Basket.AddProductClient
+[       OK ] Basket.AddProductClient (0 ms)
+[ RUN      ] Basket.DeleteProductSeller
+[       OK ] Basket.DeleteProductSeller (0 ms)
+[ RUN      ] Basket.DeleteProductClient
+[       OK ] Basket.DeleteProductClient (0 ms)
+[ RUN      ] Basket.GetMoneyInBasket
+[       OK ] Basket.GetMoneyInBasket (0 ms)
+[ RUN      ] Basket.DumpMarket
+|-------------------------------------|
+|CLIENT ID |PRODUCT ID |PRODUCT QTY   |
+|C1      |P1       |1      |
+|C1      |P2       |2      |
+|C1      |P3       |1      |
+|C2      |P5       |1      |
+|C2      |P1       |1      |
+|C2      |P4       |1      |
+|-------------------------------------|
+|TOTAL: 110.000000                           |
+|-------------------------------------|
+[       OK ] Basket.DumpMarket (0 ms)
+[----------] 14 tests from Basket (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 14 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"market_gtests" end time: Dec 21 19:47 CET
+"market_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 21 19:47 CET
